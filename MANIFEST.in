@@ -1,0 +1,3 @@
+include src/bemplate/setup.cfg
+include src/bemplate/.coveragerc
+recursive-include src/bemplate/payload *
