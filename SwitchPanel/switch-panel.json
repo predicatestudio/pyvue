@@ -1,0 +1,28 @@
+{
+    "switches": [
+        {
+            "label": "Gray Switch"
+        },
+        {
+            "label": "Blue Switch",
+            "color": "primary"
+        },
+        {
+            "label": "Green Switch",
+            "color": "success"
+        },
+        {
+            "label": "Info Switch",
+            "color": "info"
+        },
+        {
+            "label": "Warning Switch",
+            "color": "warning"
+        },
+        {
+            "label": "Danger Switch",
+            "color": "danger"
+        }
+    ],
+    "head": "Default Header"
+}

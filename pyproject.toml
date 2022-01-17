@@ -43,6 +43,8 @@ ci = [
 dev = [
   "pyvue[ci]",
   "ipython",
+  "fastapi",
+  "uvicorn",
 ]
 
 [project.urls]
@@ -67,12 +69,12 @@ line-length = 150
 
 [tool.bem]
 source-directory = "src"
-pins = [
-  "click > 6",
-]
+# pins = [
+#   "click > 6",
+# ]
 
 [tool.bem.codepack]
-framework = "https://github.com/terminal-labs/bash-environment-shelf/archive/refs/heads/master.zip"
+# framework = "https://github.com/terminal-labs/bash-environment-shelf/archive/refs/heads/master.zip"
 
 [tool.pytest.ini_options]
 addopts = "-x -v"

@@ -54,7 +54,13 @@ def selfcoverage_cli():
 def core_cli():
     core.main()
 
+@click.command(name="pyv")
+def core_pyv():
+    app = core.Vue("/home/benjamin/predicatestudio/pyvue/SwitchPanel/App.vue")
+    print(app)
+    print(app.raw_template)
 
+cli.add_command(core_pyv)
 cli.add_command(core_cli)
 cli.add_command(system_group)
 main = cli
