@@ -1,4 +1,4 @@
-from bemplate import cli
+from pyvue import cli
 
 
 def main():

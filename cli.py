@@ -1,11 +1,11 @@
-"""This begins a basic cli. In its current state, bem calls these commands if bemplate.repo/tests is True"""
+"""This begins a basic cli. In its current state, bem calls these commands if pyvue.repo/tests is True"""
 
 import os
 import click
 import pytest
-from bemplate import core
-from bemplate import local
-from bemplate.local import PROJ_NAME, PROJ_DIR, PROJ_VERSION, COV_CONFIG
+from pyvue import core
+from pyvue import local
+from pyvue.local import PROJ_NAME, PROJ_DIR, PROJ_VERSION, COV_CONFIG
 from pprint import pprint
 
 

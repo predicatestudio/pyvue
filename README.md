@@ -42,15 +42,15 @@ radon cc .
 ```
 ## How to make a BEM Project: Python
 
-To get started creating a new Python project with BEM, first fork this repository. You will then want to begin replacing bemplate configurations with your own.
+To get started creating a new Python project with BEM, first fork this repository. You will then want to begin replacing pyvue configurations with your own.
 
-To begin this process, we recommend a text search to replace all instances--both within files and in file and folder names--of "bemplate" with your project name. Note that the only required changes are:
+To begin this process, we recommend a text search to replace all instances--both within files and in file and folder names--of "pyvue" with your project name. Note that the only required changes are:
 
  - Makefile (APPNAME)
  - Manifest.in (relevant filepaths)
  - pyproject.toml (project.name)
 
-Other instances of "bemplate" are likely reflexive imports or dependencies. Since these are likely to change regardless, we leave it to you to apply updates.
+Other instances of "pyvue" are likely reflexive imports or dependencies. Since these are likely to change regardless, we leave it to you to apply updates.
 
 The following steps are expanded in less detail, but they are as follows:
 
@@ -62,7 +62,7 @@ The following steps are expanded in less detail, but they are as follows:
 
  - update the environment dependencies in dependencies/
 
- - replace src/bemplate with src/{your-project} and the relevant concepts, or begin developing from the bemplate skeleton.
+ - replace src/pyvue with src/{your-project} and the relevant concepts, or begin developing from the pyvue skeleton.
 
 ### .repo
 

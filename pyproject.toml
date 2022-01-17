@@ -1,5 +1,5 @@
 [project]
-name = "bemplate"
+name = "pyvue"
 version = "0.2.0"
 description = "A template for BEM projects"
 readme = "README.md"
@@ -37,11 +37,11 @@ lint = [
   "flake8",
 ]
 ci = [
-  "bemplate[test]",
-  "bemplate[lint]",
+  "pyvue[test]",
+  "pyvue[lint]",
 ]
 dev = [
-  "bemplate[ci]",
+  "pyvue[ci]",
   "ipython",
 ]
 
@@ -52,7 +52,7 @@ repository = "https://github.com/predicatestudio/predicate_templates"
 changelog = "github.com/me/spam/blob/master/CHANGELOG.md"
 
 [project.scripts]
-cli = "bemplate.cli:main"
+cli = "pyvue.cli:main"
 
 [build-system]
 requires = [

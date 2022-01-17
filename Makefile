@@ -1,4 +1,4 @@
-APPNAME="bemplate"
+APPNAME="pyvue"
 TYPE=python
 PYTHONVERSION="3.10"
 EXTRAS="none"
